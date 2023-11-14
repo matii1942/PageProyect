@@ -38,7 +38,7 @@ body{
 }
 .header .nav-links li{
     display: inline-block;
-    padding: 0 72px;
+    padding: 0 40px;
 }
 .header .nav-links li:hover{
     transform: scale(1.1);
@@ -152,8 +152,16 @@ h2{
     .container{
         flex-wrap: wrap;
     }
-
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .header .nav-links li {
+        padding: 0 9px;
+        }
 }
+
 @media (min-width: 530px){
     .container{
         flex-wrap: nowrap;
@@ -170,4 +178,9 @@ h2{
         margin: 4%;
     }
     
+}
+@media (min-width: 1024px) {
+    .header .nav-links li{
+        padding: 0 40px;
+    }
 }
