@@ -84,6 +84,10 @@ header .btn button{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        background-position: 40% -25%;
+    }
+    .header .nav-links li {
+        padding: 0 0px;
     }
 }
 @media (min-width: 1024px){
